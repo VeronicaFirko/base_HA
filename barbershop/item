@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<nav>
+				<ul>
+					<li>Главная</li>
+					<li>Информация</li>
+					<li>Новости</li>
+					<li>Прайс-лист</li>
+					<li>Магазин</li>
+					<li>Контакты</li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a href="#" class="login">Вход</a>
+			</div>
+		</div>
+	</header>
+	<main class="container">
+		<h1 class="item-name">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</h1>
+		<ul class="bread-crumbs">
+			<li><a href="#">ГЛАВНАЯ</a></li>
+			<li><a href="#">МАГАЗИН</a></li>
+			<li><a href="#">СРЕДСТВА ДЛЯ УХОДА</a></li>
+			<li>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</li>
+		</ul>
+
+		<div class="content-block">
+			<div class="left-side">
+				<img src="img/item1.png" alt="" class="big-item">
+				<img src="img/item2.png" alt="" class="small-item">
+				<img src="img/item3.png" alt="" class="small-item">
+				<img src="img/item4.png" alt="" class="small-item">
+			</div>
+			
+			<div class="right-side">
+				<div class="existing-item">
+					<div class="text-exist">ЕСТЬ В НАЛИЧИИ</div>
+					<div class="articul">АРТИКУЛ:DEXTER-AE</div>
+				</div>
+				<div class="description-item">TRAVEL KIT- НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО НУЖНО ДЛЯ БРИТЬЯ И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ, НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ.</div>
+				<div class="price-item">
+					<div class="price">2 900 РУБ.</div>
+					<div class="btn">КУПИТЬ</div>
+				</div>
+				<div class="consist-item">
+					<div class="title-consist">В НАБОР ВХОДЯТ:</div>
+					<div class="list-item">
+						<ul>
+							<li>СРЕДСТВО ДЛЯ УМЫВАНИЯ(50 мл)</li>
+							<li>УВЛАЖНЯЮЩИЙ КРЕМ(50 мл)</li>
+							<li>КРЕМ ДЛЯ БРИТЬЯ (50 мл)</li>
+							<li>КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 мл)</li>
+							<li>УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<div class="contact">
+				<p>Барбершоп "Бородинский"<br>
+				Адрес: г.Санкт-Петербург, Б.Конюшенная, д 19/8<br>
+				<span>Как нас найти?</span><br>
+				Телефон: +7(495) 666-02-66</p>
+			</div>
+			<div class="social">
+				<a href="#" class="social-btn vk">vk</a>
+				<a href="#" class="social-btn fb">fb</a>
+				<a href="#" class="social-btn inst">inst</a>
+			</div>
+			<div>
+				<p>Разработано:</p>
+				<a href="#" class="btn">HTMLACADEMY.RU</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
