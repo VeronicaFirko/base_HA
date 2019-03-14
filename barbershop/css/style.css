@@ -29,6 +29,11 @@ body{
 	
 }
 
+.main-navigation li
+{
+	display:inline-block;
+}
+
 .user-block{
 	width: 140px;
 	float:right;
@@ -153,3 +158,43 @@ body{
 .title-consist{
 	margin-bottom:35px;
 }
+
+.left-side-item img
+{
+	margin-right: 5px;
+}
+
+.left-side-item img:last-child {
+	margin-right: 0px;
+}
+
+.left-side-price{
+	float:left;
+	width: 400px;
+}
+
+.right-side-price{
+	float:right;
+	width: 480px;
+}
+
+.price-name{
+	margin-bottom: 70px;
+}
+
+.title-block{
+	margin-bottom: 40px;
+}
+
+.list-item{
+	margin-bottom: 70px;
+}
+
+.title-block{
+	margin-bottom: 40px;
+}
+
+.price-table{
+	margin-bottom: 130px;
+}
+
