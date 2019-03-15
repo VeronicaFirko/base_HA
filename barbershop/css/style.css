@@ -11,6 +11,10 @@ body{
 	background-size: 1122px auto;
 }
 
+.white-background{
+	background: url("../img/content-background.jpg");
+}
+
 .main-header{
 	margin-bottom:60px;
 }
@@ -197,4 +201,56 @@ body{
 .price-table{
 	margin-bottom: 130px;
 }
+.aside{
+	float:left;
+	width:240px;
+}
+
+.master-side{
+	float:right;
+	width:700px;
+}
+.img-item{
+	float:left;
+	margin-right:20px;
+}
+
+.img-item:nth-child(3n){
+	
+	margin-right:0px;
+}
+
+.img-item{
+	background-color:#FFFFFF;
+}
+
+.img-item img{
+	margin-bottom: 20px;
+}
+
+.title-item{
+	margin-bottom: 15px;
+}
+
+.price{
+	width:110px;
+	height:43px;
+}
+
+.price-item a{
+	display:block;
+	width:78px;
+	height:43px;
+}
+
+.block-img{
+	margin-bottom: 45px;
+}
+
+.pagination li,.pagination a{
+	display:inline-block;
+	height:43px;
+	width:43px;
+}
+
 
