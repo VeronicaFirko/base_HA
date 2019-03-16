@@ -1,16 +1,19 @@
 html, body {
-	min-width: 1122px;
+	min-width: 960px;
 	min-height: 1750px;
 	margin: 0px;
 	padding: 0px;
 }
 
 body {
-	background: #000000  url("../img/background.jpg") no-repeat 50% 72px;
+	background: #000000  url("../img/background.jpg") no-repeat center 72px;
 	background-size: 100%;
 	color: white;
+	font-family: 'PT Sans Narrow', "Arial", sans-serif;
+	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .main-header {
@@ -83,6 +86,7 @@ main.container {
 	width: 960px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 65px;
 	margin: 0 auto;
 	display:flex;
 	flex-direction: column;
@@ -112,6 +116,7 @@ main.container {
 
 .slogan {
 	font-size: 30px;
+	font-weight: 700;
 	position: relative;
 }
 
@@ -131,6 +136,7 @@ main.container {
 .promo {
 	text-align: enter;
 	font-size: 14px;
+	font-weight: 700;
 	line-height: 24px;
 	text-align: center;
 }
@@ -144,6 +150,7 @@ main.container {
 
 .content-title {
 	font-size: 30px;
+	font-weight: 700;
 	margin: 0px;
 }
 
@@ -214,26 +221,35 @@ main.container {
 
 a.btn {
 	text-decoration: none;
-	display:inline-block;
+	color: white;
+	background-color: #000000;
+	display:block;
 	width: 140px;
-	height: 45px;
 	text-align: center;
-	line-height: 45px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	font-size: 14px;
+	line-height: 19px;
+}
 
+.btn:hover {
+	background-color: #663300;
 }
 
 
-.btn {
+button.btn {
 	background-color: #000000;
 	color: white;
-	display:inline-block;
+	display:block;
 	width: 140px;
 	height: 45px;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
 	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', "Arial", sans-serif;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -264,6 +280,11 @@ form .btn {
 	border: 2px solid #000000 ;
 	padding-left: 5px;
 	padding-right: 5px;
+	font-family: 'PT Sans Narrow', "Arial", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 24px;
 
 }
 
@@ -302,6 +323,10 @@ footer.main-footer {
 	width: 380px;
 }
 
+.address p {
+	margin:0px;
+}
+
 .address span {
 	text-decoration: underline;
 }
@@ -313,10 +338,13 @@ footer.main-footer {
 
 .social b {
 	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
 
 .social-btn {
-	display: inline-block;
+	display: block;
 	width: 43px;
 	height: 43px;
 	background: #000000;
@@ -330,11 +358,16 @@ footer.main-footer {
 .social-btn-block {
 	margin: 0 auto;
 	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
 
 }
 
 .developer {
 	width: 140px;
+	display: flex;
+	flex-direction: column;
+	text-align: center
 }
 
 .vk {
