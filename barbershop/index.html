@@ -45,24 +45,28 @@
 		<div class="index-content">
 			<div class="index-content-left">
 				<h2 class="content-title">Новости</h2>
-				<ul class="news-preview">
-					<li>
-						<p>нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
-						<time datetime="2019-09-25">25 сентября</time>
-					</li>
-					<li>
-						<p>в нашей команде попоенение, борис "бритва" стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
-						<time datetime="2019-09-10">10 Сентября</time>
-					</li>
-				</ul>
-				<a href="#" class="btn">все новости</a>
+				<div class="news">
+					<ul class="news-preview">
+						<li>
+							<p>нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
+							<time datetime="2019-09-25">25 сентября</time>
+						</li>
+						<li>
+							<p>в нашей команде попоенение, борис "бритва" стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+							<time datetime="2019-09-10">10 Сентября</time>
+						</li>
+					</ul>
+					<a href="#" class="btn">все новости</a>
+				</div>
 			</div>
 			<div class="index-content-right">
-				<h2 class="content-title">Фотогалерея</h2>
+				<h2 class="content-title">Фотогалерея</h2> 
 				<div class="gallery">
-					<img class="gallery-image" src="img/photo-1.jpg" alt="">
-					<button class="btn gallery-left">Назад</button>
-					<button class="btn gallery-right">Вперед</button>
+					<img class="gallery-image" width="286px" height="164px" src="img/gallery.jpg" alt="">
+					<div class="btn-block">
+						<button class="btn gallery-left">Назад</button>
+						<button class="btn gallery-right">Вперед</button>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -80,8 +84,10 @@
 					пн-пт: с 10:00 до 22:00 <br>
 					сб-вс: с 10:00 до 19:00
 				</p>
-				<a href="#" class="btn">как проехать</a>
-				<a href="#" class="btn">обратная связь</a>
+				<div class="btn-block">
+					<a href="#" class="btn">как проехать</a>
+					<a href="#" class="btn">обратная связь</a>
+				</div>
 			</div>
 			<div class="index-content-right">
 				<h2 class="content-title">Записаться</h2>
@@ -91,7 +97,7 @@
 					<input type="text" name="time" value="" placeholder="Время">
 					<input type="text" name="name" value="" placeholder="Имя">
 					<input type="tel" name="phone" value="" placeholder="Телефон">
-					<button type="submit">Записаться</button>
+					<button class="btn" type="submit">Записаться</button>
 				</form>
 			</div>
 		</div>
@@ -102,13 +108,16 @@
 				<p>
 					барбершоп "бородинский" <br>
 					адрес: г.Санкт-петербург, Б.Конюшенная, д. 19/8 <br>
-					<span>как нас найти ?</span>
+					<span>как нас найти ?</span><br>
 					телефон: +7 (495) 666-02-66</p>
 			</div>
 			<div class="social">
-				<a href="#" class="social-bnt insta">insta</a>
-				<a href="#" class="social-bnt vk">vk</a>
-				<a href="#" class="social-bnt fb">fb</a>
+				<b>давайте дружить !</b>
+				<div class="social-btn-block">
+					<a href="#" class="social-btn insta">insta</a>
+					<a href="#" class="social-btn vk">vk</a>
+					<a href="#" class="social-btn fb">fb</a>
+				</div>
 			</div>
 			<div class="developer">
 				<span>Разработано:</span>
