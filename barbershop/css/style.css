@@ -5,10 +5,8 @@ html, body {
 	padding: 0px;
 }
 
+
 body {
-	background: #000000  url("../img/background.jpg") no-repeat center 72px;
-	background-size: 100%;
-	color: white;
 	font-family: 'PT Sans Narrow', "Arial", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -16,15 +14,22 @@ body {
 	line-height: 24px;
 }
 
+.black-background {
+	background: #000000  url("../img/background.jpg") no-repeat center 72px;
+	background-size: 100%;
+	color: white;
+}
+
+.white-background {
+	background: #ffffff url("../img/content-background.jpg");
+}
+
 .main-header {
 	background-color: #000000;
 	min-height: 72px;
 }
 
-
-
-
-.main-header .container {
+.container {
 	width: 960px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -57,6 +62,10 @@ body {
 	align-items: center;
 	text-decoration: none;
 	color:white;
+}
+
+.main-navigation a:active {
+	background: red;
 }
 
 .main-navigation li:hover {
@@ -296,8 +305,9 @@ form .btn {
 	margin-right: 20px;
 }
 
-footer.main-footer {
-	background-color: #333333
+footer {
+	background-color: #333333;
+	color: white;
 }
 
 
@@ -314,7 +324,7 @@ footer .container {
 }
 
 
-footer.main-footer {
+footer {
 	font-size: 14px;
 	line-height: 24px;
 }
@@ -324,7 +334,7 @@ footer.main-footer {
 }
 
 .address p {
-	margin:0px;
+	margin: 0px;
 }
 
 .address span {
