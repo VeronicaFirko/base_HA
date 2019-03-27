@@ -166,6 +166,7 @@ body{
 	width:300px;
 }
 
+
 .content-block{
 	padding:50px 80px;
 	margin-bottom:35px;
@@ -175,9 +176,12 @@ body{
 
 .content-block p{
 	margin:0;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 
+.right-side p{
+	margin-bottom: 30px;
+}
 .news-list{
 	margin:0;
 	padding:0;
@@ -195,6 +199,7 @@ body{
 
 .news-list time{
 	text-transform: none;
+	font-weight: 400;
 }
 
 .btn{
@@ -218,6 +223,84 @@ body{
 
 }
 
+.btn:hover,
+.btn:active{
+	background-color: #663d15;
+}
+
+.btn.disabled,
+.btn:disabled{
+	cursor:default;
+	opacity:0.5;
+}
+
+
+.btn.disabled:hover,
+.btn:disabled:hover{
+	background-color: #000000;
+}
+
+.gallery{
+	position:relative;
+	height:260px;
+
+}
+
+.gallery-content{
+	height: 164px;
+	margin:0;
+	background-color: #cccccc;
+	border: 7px solid #ffffff;
+}
+
+.gallery-content img{
+	height: 164px;
+	width: 286px; 
+}
+
+.gallery .btn{
+	position: absolute;
+	width: 140px;
+	margin:0;
+	bottom:0;
+}
+
+.btn-left{
+	left:0;
+}
+.btn-right{
+	right:0;
+}
+
+.appform input{
+	font:inherit;
+	color: inherit;
+	text-transform: inherit;
+	background-color:#f9f6f3;
+	border:2px solid #000000;
+	outline: none;
+	width:106px;
+	padding: 7px 15px;
+	margin-bottom: 28px;
+	margin-right: 17px;
+
+}
+
+.appform input:focus{
+	border: 2px solid #663d15;
+	}
+
+.appform input:nth-child(2n){
+	margin-right: 0;
+}
+
+
+.appform .btn{
+	width: 100%;
+	clear: both;
+}
+
+
 .content-title{
 	margin:0;
 	margin-bottom: 25px;
@@ -229,6 +312,8 @@ body{
 	margin-top:65px;
 	padding-top: 60px;
 	padding-bottom:40px;
+	color:#ffffff;
+	background: #252525 url("../img/pattern.jpg");
 
 }
 
@@ -239,18 +324,90 @@ body{
 
 }
 
+.contact p{
+	margin:0;
+}
+
 .social{
 	float:left;
 	width:180px;
+	text-align: center;
+
+}
+
+.social p{
+	margin:0;
+	margin-bottom: 20px;
+
+}
+
+.social-btn{
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	margin: 0 2px;
+	font-size: 0;
+	vertical-align: top;
+	text-decoration: none;
+}
+.vk{
+	background: #000000 url("../img/v.png") no-repeat center;
+}
+
+.vk:hover{
+	background: #ffffff url("../img/b-v.png") no-repeat center;
+}
+
+
+.fb{
+	background: #000000 url("../img/f.png") no-repeat center;
+}
+
+.fb:hover{
+	background: #ffffff url("../img/b-f.png") no-repeat center;
+}
+
+
+
+.inst{
+	background: #000000 url("../img/insta.png") no-repeat center;
+}
+
+.inst:hover{
+	background: #ffffff url("../img/b-insta.png") no-repeat center;
+}
+
+
+
+
+
+.main-footer a{
+	color:#ffffff;
+	text-decoration: none;
+
+}
+
+.main-footer a:hover{
+	text-decoration: none;
 
 }
 
 .copyright{
 	float:right;
-	width:160px;
+	max-width:180px;
+	text-align: center;
 
 }
 
+.copyright p{
+	margin:0;
+	margin-bottom: 20px;
+}
+
+.copyright .btn{
+
+	margin-right: 0
+}
 .item-name{
 	margin-bottom:30px;
 }
@@ -297,9 +454,7 @@ body{
 	float:left;
 }
 
-.btn{
-	float:left;
-}
+
 
 .title-consist{
 	margin-bottom:35px;
